@@ -5,15 +5,16 @@
 
 .navbar {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   font-family: "Inter", sans-serif;
-  background-color: #fafafa;
+  background-color: red;
   color: #002bc2;
+  justify-content: space-between;
 }
 
 .navlist {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -21,7 +22,7 @@
 
 .navbar,
 .navlist li a {
-  display: block;
+  // display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
   color: #002bc2;
@@ -36,4 +37,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.nav2 p span {
+  color: #002bc2;
 }

@@ -7,8 +7,10 @@ export const HeaderComponent = () => {
       <figure>
         <img src={Image4} alt="Advokat rum" />
       </figure>
-      <h1>Leo-Lov</h1>
-      <p>Lov og ret kan være et plaster! Hvis du ellers har knaster!</p>
+      <hgroup>
+        <h1>Leo-Lov</h1>
+        <a href="#">Lov og ret kan være et plaster! Hvis du ellers har knaster!</a>
+      </hgroup>
       <section className={style.artikelsection}>
         <article>
           <h2>Famileret</h2>

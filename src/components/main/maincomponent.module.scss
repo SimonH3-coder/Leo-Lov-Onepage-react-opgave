@@ -1,0 +1,117 @@
+// Fronte
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jura:wght@300..700&display=swap");
+
+section figure figcaption > p {
+  color: var(--dark);
+  font-size: 1.5rem;
+  font-family: "Inter", sans-serif;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+section figure figcaption footer > a {
+  color: var(--dark);
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+.section1 h2 {
+  font-family: "Inter", sans-serif;
+  color: #002bc2;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.section1 img {
+  max-width: 100%;
+  height: auto;
+  border: solid 5px #2c3b6f;
+}
+
+.section1 {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+  border: solid 5px #2c3b6f;
+}
+
+.section1 figure figcaption {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section2 h2 {
+  font-family: "Inter", sans-serif;
+  color: #002bc2;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.section2 img {
+  max-width: 100%;
+  height: auto;
+  border: solid 5px #2c3b6f;
+}
+
+.section2 {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+  border: solid 5px #2c3b6f;
+}
+
+.section2 figure figcaption {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section3 h2 {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #002bc2;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.section3 img {
+  max-width: 100%;
+  height: auto;
+}
+
+.section3 div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.section4 h2 {
+  font-family: "Inter", sans-serif;
+  color: #002bc2;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.section4 img {
+  max-width: 100%;
+  height: auto;
+  border: solid 5px #2c3b6f;
+}
+
+.section4 {
+  display: grid;
+  grid-template-columns: repeat(1fr, 1fr);
+  border: solid 5px #2c3b6f;
+}
+.section4 figure figcaption {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section4 figure figcaption article p {
+  margin-top: 0.5rem;
+}
+
+.section4 figure figcaption article a {
+  text-align: right;
+}

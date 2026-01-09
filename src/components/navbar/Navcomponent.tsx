@@ -1,4 +1,4 @@
-import style from "./Navcomponent.module.scss";
+import style from "./navcomponent.module.scss";
 
 export const Navcomponent = () => {
   return (
@@ -18,7 +18,9 @@ export const Navcomponent = () => {
         </li>
       </ul>
       <li className={style.nav2}>
-        <a href="#">Leo-Lov</a>
+        <p>
+          <span>Leo-</span>lov
+        </p>
       </li>
     </nav>
   );
